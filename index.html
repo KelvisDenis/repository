@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Denis Kelvis</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <nav class="container">
+            <a href="#home" class="logo">Denis<span>Kelvis</span></a>
+            <div class="nav-toggle" id="navToggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link active">Início</a></li>
+                <li><a href="#projects" class="nav-link">Projetos</a></li>
+                <li><a href="#contact" class="nav-link">Contato</a></li>
+                <li><a href="#" class="btn btn-outline">Currículo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h4 class="subtitle">Olá, me chamo</h4>
+                    <h1 class="title">Denis Kelvis</h1>
+                    <h2 class="typing-text">Software Enginer <span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                    <p class="description">Especializado em criar soluções web modernas, eficientes e visualmente impressionantes.</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contact" class="btn btn-outline">Contate-me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-wrapper">
+                        <img src="./src/assets/profile.png" alt="Gabriel Araújo" class="profile-image">
+                        <div class="tech-icons">
+                            <i class="fab fa-html5" title="HTML5"></i>
+                            <i class="fab fa-css3-alt" title="CSS3"></i>
+                            <i class="fab fa-js" title="JavaScript"></i>
+                            <i class="fab fa-react" title="React"></i>
+                            <i class="fab fa-python" title="Python"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-down">
+                <a href="#projects"><i class="fas fa-chevron-down"></i></a>
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Meus <span>Projetos</span></h2>
+                    <p class="section-subtitle">Alguns dos meus trabalhos mais recentes</p>
+                </div>
+                
+                <div class="project-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./src/assets/imagem-do-projeto.png" alt="FinControl">
+                            <div class="project-overlay">
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Tailwind</span>
+                                    <span>HTML</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>GYM Template</h3>
+                            <p>Plataforma inteligente de gestão para academias que simplifica a complexidade do dia a dia da academia.</p>
+                            <div class="project-links">
+                                <a href="https://github.com/KelvisDenis/GYM_Template" target="_blank" class="btn btn-small">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                                <a href="https://github.com/KelvisDenis/GYM_Template" target="_blank" class="btn btn-small btn-outline">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./src/assets/image2.png" alt="Projeto 2">
+                            <div class="project-overlay">
+                                <div class="project-tech">
+                                    <span>SpringBoot</span>
+                                    <span>Firebase</span>
+                                    <span>React</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>Veneza SQL</h3>
+                            <p>Aplicação web (Spring Boot + React) que transforma o banco de dados de um sistema antigo em uma interface moderna de consulta, permitindo a desativação segura da plataforma original.</p>
+                            <div class="#" target="_blank" class="btn btn-small">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                                <a href="https://github.com/Jason02gabriel/SICADI-API" target="_blank" class="btn btn-small btn-outline">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                     <div class="project-card">
+                        <div class="project-image">
+                            <img src="./src/assets/image3.png" alt="Projeto 2">
+                            <div class="project-overlay">
+                                <div class="project-tech">
+                                    <span>React</span>
+                                    <span>Postgres</span>
+                                    <span>Flask</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3>EmployerSite</h3>
+                            <p>Plataforma para vendedores</p>
+                            <div class="#" target="_blank" class="btn btn-small">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </a>
+                                <a href="https://github.com/KelvisDenis/site_de_vendedores" target="_blank" class="btn btn-small btn-outline">
+                                    <i class="fab fa-github"></i> Código
+                                </a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                
+                
+                <div class="more-projects">
+                    <a href="https://github.com/KelvisDenis" class="btn btn-outline">
+                        <i class="fab fa-github"></i> Ver mais no GitHub
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Entre em <span>Contato</span></h2>
+                    <p class="section-subtitle">Estou disponível para novas oportunidades</p>
+                </div>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <i class="fas fa-envelope"></i>
+                            <h4>Email</h4>
+                            <p>kelvidenis@gmail.com</p>
+                            <a href="mailto:analista.gabrielteixeira@gmail.com" class="contact-link">Envie uma mensagem <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <i class="fab fa-linkedin-in"></i>
+                            <h4>LinkedIn</h4>
+                            <p>www.linkedin.com/in/jason-gabriel-araújo-da-silva-b7a89b1a2</p>
+                            <a href="www.linkedin.com/in/jason-gabriel-araújo-da-silva-b7a89b1a2" target="_blank" class="contact-link">Conecte-se <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                        
+                        <div class="contact-card">
+                            <i class="fab fa-github"></i>
+                            <h4>GitHub</h4>
+                            <p>https://github.com/KelvisDenis</p>
+                            <a href="hhttps://github.com/Jason02gabriel" target="_blank" class="contact-link">Veja meus projetos <i class="fas fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                    
+                    <form class="contact-form">
+                        <div class="form-group">
+                            <input type="text" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Assunto">
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Enviar Mensagem
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#home" class="logo">Denis<span>Kelvis</span></a>
+                    <p>Desenvolvedor web focado em criar soluções modernas e eficientes.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <h4>Links Rápidos</h4>
+                    <ul>
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Início</a></li>
+                        <li><a href="#projects"><i class="fas fa-chevron-right"></i> Projetos</a></li>
+                        <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contato</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Currículo</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Inscreva-se para receber atualizações sobre meus projetos.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Seu email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Denis Kelvis. Todos os direitos reservados.</p>
+                <div class="footer-legal">
+                    <a href="#">Termos de Uso</a>
+                    <a href="#">Política de Privacidade</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <script src="./src/js/script.js"></script>
+</body>
+</html>
